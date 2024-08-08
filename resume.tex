@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+
+\usepackage[top=0.75cm, bottom=0.75cm, left=1cm, right=1cm]{geometry}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fontspec}
+
+\titleformat{\section}{\vspace{-10pt}\large\bfseries}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{\textsc{Sujay Shankar}}} \\ \vspace{2pt}
+    \faPhoneSquare~(973)668-0450 \hspace{5pt}
+    \faEnvelopeSquare\href{mailto:sujays2001@gmail.com}{~\underline{sujays2001@gmail.com}} \hspace{5pt}
+    \faGithubSquare\href{https://github.com/Sujay-Shankar}{~\underline{github.com/Sujay-Shankar}}
+\end{center}
+
+\section{\textsc{Education}}
+\normalsize\textbf{The University of Texas at Austin}\hfill\small\textbf{August 2020 -- December 2023}
+\\ \textit{Bachelor of Science: Astronomy\hfill Major GPA: 3.8927}
+\\ \textit{Bachelor of Science: Computational Physics\hfill Major GPA: 3.9058}
+\\ \textit{Certificate: Elements of Computing\hfill Certificate GPA: 4.0000} \vspace{5pt}
+\\ \normalsize\textbf{Boston University}\hfill\small\textbf{September 2024 -- present}
+\\ \textit{Doctor of Philosophy: Astronomy}
+
+\section{\textsc{Research Projects}}
+\normalsize\textbf{The University of Texas at Austin} | McDonald Observatory\hfill\small\textbf{May 2022 -- August 2023}
+\\ \textit{Undergraduate Research Assistant\hfill Austin, TX} \vspace{-15pt}
+\\ \begin{itemize}[itemsep=-3pt, parsep=3pt, label={--}]
+    \item Lead developer of the \texttt{gollum} Python library, analyzing and visualizing stellar and substellar atmosphere models
+    \item Software architecture improvements, UI/UX improvements, and bug fixes
+    \item Added support for starspot two-component mixture modeling with PHOENIX
+    \item Tested functionality on IGRINS spectra
+\end{itemize}
+\normalsize\textbf{The University of Texas at Austin} | Department of Astronomy\hfill\small\textbf{August 2023 -- December 2023}
+\\ \textit{AST 375C: Conference Course in Astronomy\hfill Austin, TX} \vspace{-15pt}
+\\ \begin{itemize}[itemsep=-3pt, parsep=3pt, label={--}]
+    \item Lead developer of \texttt{blase3D}, a fork of \texttt{blase} (Gully-Santiago \& Morley 2022)
+    \item Used interpretable machine learning with GPUs to clone PHOENIX spectra across $T_{eff}$, $\log{(g)}$, and [Fe/H]
+    \item Used linear interpolators to create manifolds mapping stellar properties to line-by-line properties
+\end{itemize}
+\normalsize\textbf{The University of Florida} | Department of Astronomy\hfill\small\textbf{May 2023 -- present}
+\\ \textit{REU Student Researcher\hfill Gainesville, FL} \vspace{-15pt}
+\\ \begin{itemize}[itemsep=-3pt, parsep=3pt, label={--}]
+    \item Synthesized a globular cluster escapee sample from APOGEE DR17 and GALAH DR3, combined with Gaia dynamics
+    \item Developed a multithreaded orbit integration pipeline with Monte Carlo initial conditions
+    \item Used chemical, dynamical, and photometric information to match escapee candidates with globular clusters
+\end{itemize}
+\normalsize\textbf{The University of Texas at Austin} | Department of Astronomy\hfill\small\textbf{January 2024 -- July 2024}
+\\ \textit{Research Engineering/Scientist Assistant\hfill Austin, TX} \vspace{-15pt}
+\\ \begin{itemize}[itemsep=-3pt, parsep=3pt, label={--}]
+    \item Add \texttt{gollum} support for newly released Sonora Diamondback brown dwarf atmospheric models
+    \item Improve gollum's documentation, setup, testing, and directory management systems
+    \item Submit papers for \texttt{blase3D} to ApJ and \texttt{gollum} to JOSS
+\end{itemize}
+
+\section{\textsc{Publications}}
+\begin{itemize}[itemsep=-3pt, parsep=3pt, label={--}]
+    \item \textbf{Shankar, S.} \& Gully-Santiago, M. \& Morley, C. 2024 (in review)
+    \textit{A New Hybrid Machine Learning Method for Stellar Parameter Inference.} ApJ
+    \item \textbf{Shankar, S.} \& Bandyopadhyay, A. \& Ezzeddine, R. (in prep)
+    \textit{Novel Dynamical Tagging of Globular Cluster Escapee Candidates back to their Sources.}
+    \item \textbf{Shankar, S.} et al. 2024 (in review)
+    \textit{\texttt{gollum}: An intuitive programmatic and visual interface for precomputed synthetic spectral model grids.} JOSS
+\end{itemize}
+
+\section{\textsc{Technical Skills}}
+\textbf{Languages}: Python, Bash, MATLAB, \LaTeX, Swift
+\\\textbf{Frameworks}: Pandas, Altair, Numpy, Astropy, PyTorch, Galpy
+\\\textbf{Technologies}: VSCode, Git, Linux, XCode, GPU Computing
+
+\section{\textsc{Conferences}}
+\textbf{American Astronomical Society 243rd Meeting}\hfill\small\textbf{January 2024}
+\\ -- Poster: \textit{Novel Dynamical Tagging of Globular Cluster Escapee Candidates back to their Sources\hfill New Orleans, LA}
+\\\textbf{2023 Bash Symposium} \hfill\small\textbf{October 2023}
+\\ -- Poster: \textit{Precision Fundamental Stellar Properties with Interpetable Machine Learning\hfill Austin, TX}
+\\\textbf{TACCSTER 2023} \hfill\small\textbf{October 2023}
+\\ -- Attendee Only\hfill\small\textit{Austin, TX}
+
+\section{\textsc{Presentations}}
+\textit{Dynamically Tagging Globular Cluster Escapee Candidates back to their Sources}\hfill\small\textbf{August 2023}
+\\\textit{Generating Rotational Velocities for 27 Near-IR Objects}\hfill\small\textbf{May 2023}
+
+\end{document}

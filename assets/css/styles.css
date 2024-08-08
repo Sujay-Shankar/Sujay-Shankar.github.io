@@ -1,0 +1,41 @@
+html {
+    font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    max-width: 600px;
+}
+
+hr {
+    margin-inline-start: 0;
+    max-width: 600px;
+}
+
+.topnav {
+    background-color: black;
+    font-size: 20px;
+}
+
+.topnav a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    float: left;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: gray;
+  }
+  
+
+.topnav a.active {
+    background-color: indigo;
+}
